@@ -52,7 +52,7 @@ exports.getLectures =  (req, res, next) => {
 
 
 exports.addLectures = async (req, res, next) => {
-  const url = req.protocol + "://" + req.get("host");
+  const url = req.protocol + "://" + "ec2-18-220-114-171.us-east-2.compute.amazonaws.com/api/";
 
  try{
   //  const result = await cloudinary.uploader.upload(req.file.path);
